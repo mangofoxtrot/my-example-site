@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+}
+
+.about-us-main {
+  background-image: url("images/pablo-guerrero--Q1p5Gzn45c-unsplash.jpg");
+  height: 100%;
+  background-size: cover;
+  color: #404040;
+  background-color: #BEBEBE;
+  padding: 5%;
+}
+
+.about-us-main h1, p {
+  text-align: center;
+}
+
+.move-link {
+  text-decoration: none;
+  color: #808080;
+  display: block;
+}
+
+.move-link:hover {
+  color: #404040;
+  transform: scale(1.05);
+  transition: all 0.3s ease-out;
+}
+
+.header {
+  background-color: #003300;
+  color: #FFF;
+  margin: 0;
+  padding: 10 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header a {
+  color: #FFF;
+  text-decoration: none;
+  display: block;
+  transition: all 0.3s ease-out;
+}
+
+.header a:hover {
+  transform: scale(1.05);
+  color:#4c8c4a;
+}
+
+.main {
+  background-color: #1b5e20;
+  padding: 10 25px;
+  color: #FFF;
+}
+
+.footer {
+  background-color: #4c8c4a;
+  text-align: center;
+  padding: 20px;
+  font-size: .8rem;
+}
+
+.photos img {
+  width: 100%;
+}
+
+.photos {
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px; */
+}
+
+/* 
+Primary- #1b5e20
+Light- #4c8c4a
+Dark- #003300
+*/
